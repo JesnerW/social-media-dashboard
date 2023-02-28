@@ -5,14 +5,10 @@
 ![](./images/desk-dark.png)
 ![](./images/desk-light.png)
 
-<div style="display:flex;">
-  <div style="flex:50%;">
-    <img src="./images/mobile-dark.png" alt="Mobile dark image">
-  </div>
-  <div style="flex:50%;">
-    <img src="./images/mobile-light.png" alt="Mobile light image">
-  </div>
-</div>
+<p align="center">
+  <img src="./images/mobile-dark.png" alt="Mobile dark image" width="40%">
+  <img src="./images/mobile-light.png" alt="Mobile light image" width="40%">
+</p>
 
 ### Links
 
