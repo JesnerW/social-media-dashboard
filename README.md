@@ -2,15 +2,15 @@
 
 ### Screenshot
 
-![](./images/desk-dark.png.png)
-![](./images/desk-light.png.png)
-![](./images/mobile-dark.png.png)
-![](./images/mobile-light.png.png)
+![](./images/desk-dark.png)
+![](./images/desk-light.png)
+![](./images/mobile-dark.png)
+![](./images/mobile-light.png)
 
 ### Links
 
-- Solution URL: (https://github.com/JesnerW/qr-code-component)
-- Live Site URL: (https://jesnerw.github.io/qr-code-component)
+- Solution URL: (https://github.com/JesnerW/social-media-dashboard)
+- Live Site URL: (https://jesnerw.github.io/social-media-dashboard)
 
 ## My process
 
