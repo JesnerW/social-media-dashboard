@@ -202,21 +202,12 @@ span {
 }
 
 /* TYPE METRIC - OVERVIEW TODAY */
-.type {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: -webkit-fill-available;
-  margin: 25px 25px 25px 25px;
-}
-
-/* METRICAS UP OR DOWN - OVERVIEW TODAY */
+.type,
 .metrics {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  width: -webkit-fill-available;
-  margin: 0px 25px 25px 25px;
+  width: 80%;
 }
 .metrics p {
   font-size: 2rem;
