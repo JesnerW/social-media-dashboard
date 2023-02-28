@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <main class="Container">
+      <div class="top"></div>
+      <header>
+        <div class="title">
+          <h1>Social Media Dashboard</h1>
+          <span>Total Followers: 23,004</span>
+        </div>
+        <hr />
+        <div class="darkMode">
+          <span id="nameMode">Dark Mode</span>
+          <input type="checkbox" id="mode" class="toggle" checked />
+          <label for="mode" class="label">
+            <div class="ball"></div>
+          </label>
+        </div>
+      </header>
+      <div class="ContainerMedia">
+        <div class="CardSocial">
+          <div class="b-f"></div>
+          <div class="SocialInfo">
+            <div class="social">
+              <img src="./images/icon-facebook.svg" alt="facebook" />
+              <span>@nathanf</span>
+            </div>
+            <p class="number">1987</p>
+            <span>Followers</span>
+            <div class="days up">
+              <img src="./images/icon-up.svg" alt="up" />
+              <span> 12 Today </span>
+            </div>
+          </div>
+        </div>
+        <div class="CardSocial">
+          <div class="b-t"></div>
+          <div class="SocialInfo">
+            <div class="social">
+              <img src="/images/icon-twitter.svg" alt="twitter" />
+              <span>@nathanf</span>
+            </div>
+            <p class="number">1044</p>
+            <span>Followers</span>
+            <div class="days up">
+              <img src="./images/icon-up.svg" alt="up" />
+              <span> 99 Today </span>
+            </div>
+          </div>
+        </div>
+        <div class="CardSocial">
+          <div class="b-i"></div>
+          <div class="SocialInfo">
+            <div class="social">
+              <img src="./images/icon-instagram.svg" alt="instagram" />
+              <span>@realnathanf</span>
+            </div>
+            <p class="number">11k</p>
+            <span>Followers</span>
+            <div class="days up">
+              <img src="./images/icon-up.svg" alt="up" />
+              <span> 1099 Today </span>
+            </div>
+          </div>
+        </div>
+        <div class="CardSocial">
+          <div class="b-y"></div>
+          <div class="SocialInfo">
+            <div class="social">
+              <img src="./images/icon-youtube.svg" alt="youtube" />
+              <span>@nathanf</span>
+            </div>
+            <p class="number">8239</p>
+            <span>SUBSCRIBERS</span>
+            <div class="days down">
+              <img src="./images/icon-down.svg" alt="down" />
+              <span> 144 Today </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <h2>Overview - Today</h2>
+      </section>
+      <div class="ContainerMedia">
+        <div class="CardOverview">
+          <div class="type">
+            <span>Page Views</span>
+            <img src="./images/icon-facebook.svg" alt="facebook" />
+          </div>
+          <div class="metrics up">
+            <p>87</p>
+            <span><img src="./images/icon-up.svg" alt="up" />3%</span>
+          </div>
+        </div>
+        <div class="CardOverview">
+          <div class="type">
+            <span>Likes</span>
+            <img src="./images/icon-facebook.svg" alt="facebook" />
+          </div>
+          <div class="metrics down">
+            <p>52</p>
+            <span> <img src="./images/icon-down.svg" alt="down" />2% </span>
+          </div>
+        </div>
+        <div class="CardOverview">
+          <div class="type">
+            <span>Likes</span>
+            <img src="./images/icon-instagram.svg" alt="instagram" />
+          </div>
+          <div class="metrics up">
+            <p>5462</p>
+            <span><img src="./images/icon-up.svg" alt="up" />2257%</span>
+          </div>
+        </div>
+        <div class="CardOverview">
+          <div class="type">
+            <span>Profile Views</span>
+            <img src="./images/icon-instagram.svg" alt="instagram" />
+          </div>
+          <div class="metrics up">
+            <p>52k</p>
+            <span><img src="./images/icon-up.svg" alt="up" />1375%</span>
+          </div>
+        </div>
+        <div class="CardOverview">
+          <div class="type">
+            <span>Retweets</span>
+            <img src="./images/icon-twitter.svg" alt="twitter" />
+          </div>
+          <div class="metrics up">
+            <p>117</p>
+            <span><img src="./images/icon-up.svg" alt="up" />303%</span>
+          </div>
+        </div>
+        <div class="CardOverview">
+          <div class="type">
+            <span>Likes</span>
+            <img src="./images/icon-twitter.svg" alt="twitter" />
+          </div>
+          <div class="metrics up">
+            <p>507</p>
+            <span><img src="./images/icon-up.svg" alt="up" />553%</span>
+          </div>
+        </div>
+        <div class="CardOverview">
+          <div class="type">
+            <span>Likes</span>
+            <img src="./images/icon-youtube.svg" alt="youtube" />
+          </div>
+          <div class="metrics down">
+            <p>107</p>
+            <span> <img src="./images/icon-down.svg" alt="down" />19% </span>
+          </div>
+        </div>
+        <div class="CardOverview">
+          <div class="type">
+            <span>Total Views</span>
+            <img src="./images/icon-youtube.svg" alt="youtube" />
+          </div>
+          <div class="metrics down">
+            <p>1407</p>
+            <span> <img src="./images/icon-down.svg" alt="down" />12% </span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
