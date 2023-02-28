@@ -4,8 +4,11 @@
 
 ![](./images/desk-dark.png)
 ![](./images/desk-light.png)
-![](./images/mobile-dark.png)
-![](./images/mobile-light.png)
+
+<p align="center">
+  <img src="./images/mobile-dark.png" alt="Mobile dark image" width="40%">
+  <img src="./images/mobile-light.png" alt="Mobile light image" width="40%">
+</p>
 
 ### Links
 
